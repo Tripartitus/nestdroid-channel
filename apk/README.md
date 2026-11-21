@@ -4,6 +4,8 @@ The signed catalog pins the APK by name, size and SHA-256. Upload the exact file
 
 Current catalog entry:
 
-- file: `nestdroid-1.6.29.apk`
-- size: `8844363` bytes
-- SHA-256: `75600836c92822a53c9501bf8307e2aa8497ade8718f8f8e7b65d3837d7abd9b`
+- file: `nestdroid-1.6.30.apk`
+- size: `8844195` bytes
+- SHA-256: `bf52388b9142d7199aaf8bd7bf17bd27ed5188d230a25e8064725e9f2aa91100`
+
+This file is not in the repository yet. Until it is uploaded here, the channel advertises 1.6.30 and the app reports an HTTP 404 when it tries to download it. Upload it from the project's `build/dist/` directory; the app verifies the digest above before installing.
