@@ -1,8 +1,8 @@
 {
   "apk": {
-    "sha256": "1bb80a05e889972e0f334361119ba74faee6f463383f6e1aeee6f136283951ec",
-    "size": 8844211,
-    "url": "https://nestdroid-update-mirror-25devl.freebuff.site/nestdroid-1.6.31.apk"
+    "sha256": "31e66ef331554e901b075b1fdf849b8ec0a4ad0ec2d3317facad08314cb1f437",
+    "size": 8844355,
+    "url": "https://nestdroid-update-mirror-25devl.freebuff.site/nestdroid-1.6.32.apk"
   },
   "channel": "stable",
   "model": {
@@ -12,11 +12,11 @@
     "version": "1"
   },
   "notes": [
+    "Self-update confirms the install correctly: the system status extras are read from PackageInstaller",
     "Self-update installs again: the app declares REQUEST_INSTALL_PACKAGES",
-    "Update channel: signed catalog, restart prompt, automatic relaunch",
-    "Content-aware file advisor with a threat database and advisor model"
+    "Update channel: signed catalog, restart prompt, automatic relaunch"
   ],
-  "publishedAt": "2026-11-21T19:20:00Z",
+  "publishedAt": "2026-11-21T19:33:00Z",
   "schema": "nestdroid-app/1",
   "threats": {
     "sha256": "c068c022983909fd7c7ade14295820e38337573bb26fe223562e3b878f92be65",
@@ -24,6 +24,6 @@
     "url": "https://raw.githubusercontent.com/Tripartitus/nestdroid-channel/main/threats/threats.json",
     "version": "2026.11.21"
   },
-  "versionCode": 10631,
-  "versionName": "1.6.31"
+  "versionCode": 10632,
+  "versionName": "1.6.32"
 }

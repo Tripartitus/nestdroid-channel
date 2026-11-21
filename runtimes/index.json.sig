@@ -2,5 +2,5 @@
   "algorithm": "ecdsa-p256-sha256",
   "keyId": "nestdroid-channel-2026-11",
   "schema": "nestdroid-signature/1",
-  "signature": "MEQCIBA5FDPVqQlV1j7conKS5vS/wtcltGIGdIO4FfNxZx6NAiBJZVuxnXq9sm/uM6YwKTDYA41s8Lja9Z2MhK4Jy27i9A=="
+  "signature": "MEYCIQDJ9DFpBNv0OKeWVmc6xj1asPgW7JZBLtfp62A3/O/kQwIhANnwYSU075dSmkpc9OtwNEQ9p/x6rb7zzMVbcn6Ae4qy"
 }
