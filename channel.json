@@ -2,7 +2,7 @@
   "apk": {
     "sha256": "bf52388b9142d7199aaf8bd7bf17bd27ed5188d230a25e8064725e9f2aa91100",
     "size": 8844195,
-    "url": "https://nestdroid-update-mirror-25devl-preview.freebuff.site/nestdroid-1.6.30.apk"
+    "url": "https://nestdroid-update-mirror-25devl.freebuff.site/nestdroid-1.6.30.apk"
   },
   "channel": "stable",
   "model": {
@@ -17,7 +17,7 @@
     "Threat database and advisor model update without a new APK",
     "Desktop shows apps added by a new build"
   ],
-  "publishedAt": "2026-11-21T17:00:00Z",
+  "publishedAt": "2026-11-21T18:44:00Z",
   "schema": "nestdroid-app/1",
   "threats": {
     "sha256": "c068c022983909fd7c7ade14295820e38337573bb26fe223562e3b878f92be65",
