@@ -1,0 +1,29 @@
+{
+  "apk": {
+    "sha256": "75600836c92822a53c9501bf8307e2aa8497ade8718f8f8e7b65d3837d7abd9b",
+    "size": 8844363,
+    "url": "https://raw.githubusercontent.com/Tripartitus/nestdroid-channel/main/apk/nestdroid-1.6.29.apk"
+  },
+  "channel": "stable",
+  "model": {
+    "sha256": "3234f9ed28a2d27501d9782d21dfe883233b44c410f57785d9b7e7f7c4fb5ce4",
+    "size": 391,
+    "url": "https://raw.githubusercontent.com/Tripartitus/nestdroid-channel/main/threats/advisor.json",
+    "version": "1"
+  },
+  "notes": [
+    "Security app with content-aware file advisor",
+    "Threat database and advisor model update without a new APK",
+    "Signed channel: installs only same-key builds"
+  ],
+  "publishedAt": "2026-11-21T16:00:00Z",
+  "schema": "nestdroid-app/1",
+  "threats": {
+    "sha256": "c068c022983909fd7c7ade14295820e38337573bb26fe223562e3b878f92be65",
+    "size": 361,
+    "url": "https://raw.githubusercontent.com/Tripartitus/nestdroid-channel/main/threats/threats.json",
+    "version": "2026.11.21"
+  },
+  "versionCode": 10629,
+  "versionName": "1.6.29"
+}

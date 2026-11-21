@@ -1,0 +1,10 @@
+{
+  "schema": "nestdroid-threats/1",
+  "version": "2026.11.21",
+  "sequence": 1,
+  "publishedAt": "2026-11-21T00:00:00Z",
+  "hashes": [
+    "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f"
+  ],
+  "note": "EICAR is the industry's harmless anti-virus test file. It is listed so a real content match can be exercised without shipping malware."
+}

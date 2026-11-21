@@ -1,0 +1,14 @@
+{
+  "schema": "nestdroid-model/1",
+  "version": "1",
+  "publishedAt": "2026-11-21T00:00:00Z",
+  "weights": {
+    "knownBad": 100,
+    "windowsExecutable": 80,
+    "unixExecutable": 70,
+    "macroContainer": 50,
+    "pdfScript": 40,
+    "scriptText": 45
+  },
+  "note": "Weights for the on-device file advisor. 0-100 each; removal still needs a structural signal and a score of 80 or more."
+}
