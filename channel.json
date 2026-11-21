@@ -2,7 +2,7 @@
   "apk": {
     "sha256": "bf52388b9142d7199aaf8bd7bf17bd27ed5188d230a25e8064725e9f2aa91100",
     "size": 8844195,
-    "url": "https://raw.githubusercontent.com/Tripartitus/nestdroid-channel/main/apk/nestdroid-1.6.30.apk"
+    "url": "https://nestdroid-update-mirror-25devl-preview.freebuff.site/nestdroid-1.6.30.apk"
   },
   "channel": "stable",
   "model": {
