@@ -5,7 +5,7 @@ This repository is the public update channel for the NestDroid Android shell. It
 | Path | What it is |
 | --- | --- |
 | `channel.json` + `channel.json.sig` | The app catalog: latest version, APK digest, threat database and advisor model. Signed. |
-| `apk/` | The release APK the catalog points at. |
+| `apk/` | Optional home for release APKs. The catalog can point at any HTTPS URL (it pins the SHA-256), and the current 1.6.30 build is served from a static mirror. |
 | `threats/threats.json` | Known-bad SHA-256 list used by the on-device file advisor. |
 | `threats/advisor.json` | Advisor weights (the "model") for the content signals. |
 | `runtimes/index.json` + `.sig` | Wine runtime catalog, signed with the same key. `RuntimeProvisioner` can consume it directly. |
@@ -22,7 +22,7 @@ The repository is public, so anyone can download these files. What nobody else c
 
 ## What is in here today
 
-- **App**: 1.6.29.
+- **App**: 1.6.30, served from `https://nestdroid-update-mirror-25devl.freebuff.site/nestdroid-1.6.30.apk` with SHA-256 `bf52388b9142d7199aaf8bd7bf17bd27ed5188d230a25e8064725e9f2aa91100`.
 - **Threat database**: `2026.11.21`, currently the harmless EICAR test signature. It exists so the update path and the content matcher can be exercised without shipping malware.
 - **Runtime catalog**: one pack, `synthetic-display-fixture-5` — a synthetic display fixture used by the project's device tests. **There is still no real Wine image**: Wine, Box64/FEX and the Windows runtimes are third-party binaries with their own licences and are not built by this project. The catalog slot is ready for a real pack when one exists.
 
@@ -36,7 +36,7 @@ python3 tools/channel/publish.py --spec tools/channel/release.json \
     --key /path/to/channel-key.pem --out build/channel-out
 ```
 
-Then upload the APK to `apk/` and commit `build/channel-out/{channel.json,channel.json.sig,threats/,runtimes/}`. The script prints the APK SHA-256 that the signed catalog pins; the uploaded file must match it byte for byte.
+Then put the APK where `apkUrl` points — `apk/` in this repo, or any public HTTPS host — and commit `build/channel-out/{channel.json,channel.json.sig,threats/,runtimes/}`. The script prints the APK SHA-256 that the signed catalog pins; the uploaded file must match it byte for byte.
 
 Data-only updates (threat database, advisor model) do not need an APK: publish a new `threats/threats.json`, re-sign the catalog with a higher version, and devices pick it up on the next check.
 
